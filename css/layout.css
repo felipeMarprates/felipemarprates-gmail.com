@@ -1,0 +1,348 @@
+ body{
+    margin: 0;
+    padding: 0;
+     border: 0;
+    background-color:#26393F;
+
+}
+html{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+       header{
+          width: 100%;
+          padding-top:0px;
+          padding-bottom: 120px;
+           clear: both;
+           content: "";
+           display: table;
+} 
+nav{
+  
+}
+.topnav {
+ 
+
+    top: 1vh;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.topnav > ul > li {
+    display: inline-block;
+}
+
+.dd {
+    position: relative;
+}
+
+.ddc {
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    position: absolute;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+    transition: all linear 250ms;
+    background-color:white; 
+    color:#536573;
+}
+
+.dd:hover .ddc {
+    visibility: visible;
+    height: 12em;
+    width: 9em;
+}
+nav ul{
+    text-align:right;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.3vw;
+    padding: 0em;
+    transition: all ease 250ms;
+    padding: 1vw;
+    text-align: center;
+    border-radius:10%;
+    color:#F1ECE6;
+}
+
+nav ul li a:hover {
+   
+  background-image: linear-gradient(rgba(5,5,5,0),rgba(5,5,5,0),rgba(5,5,5,0),rgba(255,255,255,0.8));
+     color: lightgoldenrodyellow;
+
+}
+          main{
+           padding-top: 0px;
+}
+.backred{
+        background-color:#8D5854;
+       
+}
+ .backblue{
+        background-color:#536573;
+       
+}
+.backdablue{
+    background-color: #26393F;
+}
+.backwhite{
+    background-color: #F1ECE6;
+}
+.head1{
+   
+
+}
+.head2{
+   
+ padding-bottom: 50px;
+    padding-top: 50px;
+}
+.div{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.padd{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.parent:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+        div{
+            padding: 0px;
+         margin:0px;
+}
+  
+
+
+.imr{
+    text-align: right;
+    
+}
+    
+
+       p{
+           padding: 0px;
+           margin:0px;
+           font-family: 'Montserrat', sans-serif;
+		    font-weight: normal;           
+		   margin-left: 0em;
+
+}
+	   h2{
+           text-align: center;
+           font-family: 'Montserrat', sans-serif;
+		       font-weight: lighter;
+}
+	   h1{
+		   font-family: 'Montserrat', sans-serif;
+		       font-weight: 300;
+
+}
+        H3{
+			margin: 0px;
+            padding: 0px;
+            font-family: 'Oswald', sans-serif;
+            position: absolute;
+      font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+			font-weight: 300;
+}
+h4{
+           text-align:left;
+           font-family: 'Montserrat', sans-serif;
+		       font-weight: lighter;
+	font-size: 3rem;
+	margin: 0px;
+}
+
+        a{
+			font-family: 'Montserrat', sans-serif;
+			 font-weight: 300;
+			text-decoration: none;
+	
+}
+ 
+.lefttext{
+    text-align: left;
+}
+.righttext{
+    text-align: right;
+    
+}
+.centertext{
+    text-align: center;
+}
+
+     
+.fullw{
+	width: 100%;
+	float: left
+}
+
+.padt{
+     padding-top: 100px;
+    
+}
+.padb{
+    padding-bottom: 100px;
+}
+       .padr{
+           padding-right: 100px;
+}
+       .padl{
+           padding-left: 100px;
+}
+       .white{
+    color: #F1ECE6;
+}
+.blue{
+    color: #536573;
+}
+.black{
+	color: black;
+}
+.aboutme{
+    padding-top: 200px;
+}
+.hobbys{ 
+    padding-top: 400px;
+    padding-bottom: 300px;
+  
+    
+}
+.child1{
+    float: left;
+    width: 38.20%;
+
+}
+.child2{
+    float: left;
+    width: 61.80%;
+}
+.child3{
+     float: left;
+    width: 33.3%;
+}
+  
+       footer{
+       padding-top:  0px;
+       padding-bottom: 50px;
+       clear: both;
+       content: "";
+}
+       .footer1,.footer2{
+        padding-bottom:0px;
+        padding-top:10px;
+            
+}
+.center{
+    text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+footer>div>div>a{
+    color:#536573;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+footer>div>div>a:hover{
+    color:whitesmoke;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #536573;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
+
+input[type=submit]:hover {
+ background-color: #26393F;
+     box-shadow: 5px 2px 3px rgba(0,0,0,0.2);
+    
+}
+
+.container {
+    border-radius: 0px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-bottom:0px;
+    padding-top: 0px;
+    align-content: center;
+}
+.pdf{
+   color: aliceblue;
+    display: inline-block;
+    padding: 1.5em;
+    border-radius: 1em;
+    box-shadow: 5px 2px 3px rgba(0,0,0,0.2);
+    background-color: #26393F;
+    font-family: sans-serif;
+    
+}
+
+#frame{
+    width: 750px;
+    height: 300px;
+    padding: 10px;
+    margin: 29px;
+    border: 8px solid white;
+    position: absolute;
+    
+    
+}
+
+#hero {
+    background-image: url("../img/nature-hd-wallpaperBLUE2.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+ 
+
+    
+}
